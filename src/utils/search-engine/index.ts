@@ -1,15 +1,13 @@
 import engBaidu from './eng-baidu'
 import engGoogle from './eng-google'
 import engBing from './eng-bing'
-import engWikipedia from './eng-wikipedia'
-import engSogou from './eng-sogou'
+import engXiaowa from './eng-xiaowa'
 
 const ENGINES = {
   Baidu: engBaidu,
   Google: engGoogle,
   Bing: engBing,
-  Wikipedia: engWikipedia,
-  Sogou: engSogou,
+  Xiaowa: engXiaowa,
 }
 
 export type SearchEngine = keyof typeof ENGINES

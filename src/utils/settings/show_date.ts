@@ -7,7 +7,7 @@ const showDateList: SettingItemChildren<boolean> = [
 
 export const showDate = new SettingItem({
   name: () => t('settings.showDate.title'),
-  key: 'ShowLunar',
+  key: 'showDate',
   children: showDateList,
   defaultKey: 'Show',
 })

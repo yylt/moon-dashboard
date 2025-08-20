@@ -23,5 +23,5 @@ export const iconStyle = new SettingItem({
   name: () => t('settings.iconStyle.title'),
   key: 'IconStyle',
   children: iconStyleList,
-  defaultKey: 'Plain',
+  defaultKey: 'Vivid',
 })

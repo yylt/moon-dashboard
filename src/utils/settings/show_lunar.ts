@@ -9,5 +9,5 @@ export const showLunar = new SettingItem({
   name: () => t('settings.showLunar.title'),
   key: 'ShowLunar',
   children: showLunarList,
-  defaultKey: 'Hide',
+  defaultKey: 'Show',
 })
